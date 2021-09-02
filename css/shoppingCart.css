@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background: #F2F2F2;
+}
+header{
+    width: 100%;
+    height: 16vh;
+    background: #FF7201;
+    color: #fff;
+    top: 0vh;
+    position: fixed;
+}
+header div:nth-of-type(1){
+    width: 100%;   
+}
+header div:nth-of-type(1) h2{
+    margin: 5vw 0vw 0vw 4vw;
+}
+header div:nth-of-type(1) span{
+    margin: -7vw 0vw 0vw 84vw;
+    display: block;
+}
+header div:nth-of-type(2){
+    display: flex;
+    justify-content: flex-start;
+}
+header div:nth-of-type(2) p{
+    margin: 7vw 0vw 0vw 4vw;
+    font-size: 12px;
+}
+main{
+    margin-top: 32vw;
+    margin-bottom: 32vw;
+}
+.m_shoping{
+    margin-left: 5%;
+    width: 90%;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 2vh;
+}
+.m_shoping_top{
+    width: 90vw;
+    height: 5vh;
+    overflow: hidden;
+}
+.m_shoping_top img:nth-of-type(1){
+    width: 5%;
+    width: 4vh;
+    margin-top: 1vw;
+    float: left;
+}
+.m_shoping_top img:nth-of-type(2){
+    width: 5%;
+    width: 1vh;
+    margin-top: 3vw;
+    float: left;
+}
+.m_shoping_top span:nth-of-type(2){
+    font-size: 16px;
+    margin: 1vw 3vw;
+    float: left;
+}
+.m_shoping_top span:nth-of-type(3){
+    font-size: 15px;
+    margin: 2vw 3vw;
+    color: #94959A;
+    float: right;
+}
+.m_shoping_top span:nth-of-type(1){
+    width: 4%;
+    height: 5vw;
+    border: 1px solid #999;
+    padding: 0vw 1vw;
+    border-radius: 50%;
+    margin: 2vw 4vw;
+    float: left;
+}
+.m_shoping_bottom{
+    width: 100%;
+    overflow: hidden;
+}
+.m_shoping_bottom .m_shoping_bottom_1 img{
+    width: 26%;
+    height: 16vh;
+    margin-right: 4%;
+    float: left;
+}
+.m_shoping_bottom .m_shoping_bottom_1 span{
+    width: 4%;
+    height: 5vw;
+    border: 1px solid #999;
+    padding: 0vw 1vw;
+    border-radius: 50%;
+    margin: 10vw 4vw;
+    float: left;
+}
+.m_shoping_bottom .m_shoping_bottom_3 span{
+    width: 54%;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 1vw auto;
+    float: right;
+}
+.m_shoping_bottom .m_shoping_bottom_3 span{
+    width: 50%;
+    font-size: 12px;
+    margin: 1vw auto;
+    color: #A2A3A7;
+    float: left;
+}
+.m_shoping_bottom .m_shoping_bottom_3 img{
+    width: 2%;
+    margin: 4vw 1vw;
+    float: right;
+}
+.m_shoping_bottom .m_shoping_bottom_4{
+    width: 52%;
+    float: right;
+    margin: 3vw 2vw 2vw 41vw; 
+}
+.m_shoping_bottom .m_shoping_bottom_4 span{
+    color: #FF5F09;
+    float: left;
+}
+.m_shoping_bottom .m_shoping_bottom_4 img{
+    width: 18%;
+    height: 5vh;
+    float: right;
+}
+.m_shoping_bottom .m_shoping_bottom_4 input{
+    width: 23%;
+    height: 5vh;
+    float: right;
+    border: none;
+    border: 1px solid #F3F3F3;
+}
+section{
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    bottom: 8vh;
+}
+section span:nth-of-type(1){
+    width: 4%;
+    height: 5vw;
+    border: 1px solid #999;
+    padding: 0vw 1vw;
+    border-radius: 50%;
+    margin: 4vw 3vw;
+}
+section span:nth-of-type(2){
+    font-size: 16px;
+    margin: 4vw 0vw 3vw -9vw;
+}
+section span:nth-of-type(3){
+    font-size: 18px;
+    margin: 3vw -26vw 3vw 11vw;
+}
+section span:nth-of-type(4){
+    color: #FF5000;
+    font-size: 15px;
+    margin: 5vw 0vw 3vw 19vw;
+}
+section span:nth-of-type(5){
+    font-size: 18px;
+    padding: 4vw 8vw 3vw 8vw;
+    background: #FF6900;
+    border-radius: 13px;
+    color: #FFB683;
+}
+
+
+footer{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    bottom: 0px;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    overflow: hidden;   
+    margin-top: 2%;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+footer ul a{
+    text-decoration: none;
+    color: #000000;
+}
+footer ul li{
+    width: 20%;
+    text-align: center;
+    margin-left: 6vw;
+}
+footer ul p{
+    font-size: 12px;
+}
+footer ul img{
+    width: 40%;
+}
